@@ -55,7 +55,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 <div class="container">
-    <h1>Chat with : <b><? echo $chatwithname ?></b></h1>
+    <h1>Chat with : <b><?php echo $chatwithname ?></b></h1>
     <hr>
     <?php 
       if(isset($_POST['send'])) {
